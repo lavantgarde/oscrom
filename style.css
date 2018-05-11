@@ -1,0 +1,51 @@
+@font-face {
+	font-family: Akzindenz;
+	src: url(/font/AkzidenzGrotesk-Regular.otf);
+}
+* {
+	font-family: Akzidenz, sans-serif;	
+}
+
+
+div#container {
+	display: flex;
+  width: 100%;
+}
+
+#container div a {
+	display: flex;
+	flex-direction:column;
+	padding: 15px;
+  font-size: 125%;
+  text-decoration-line: none;
+  -moz-text-decoration-line: none;
+  }
+#container div a:visited {
+  -webkit-text-fill-color: black;
+  -moz-text-decoration-color: black;
+  fill: black;
+  }
+  
+#container div a:hover {
+  -webkit-text-fill-color: red;
+  -moz-text-decoration-color: red;
+  fill: red;
+ 
+ }
+
+.hidden {
+  visibility: hidden;
+  display: none;
+}
+
+.visible {
+  visibility: visible;
+  display: inherit;
+}
+
+
+.content h6,h5, h4, h3, h2, h1 {
+padding: 10% 1.5% 1.5% 25%;
+margin: 0;
+
+}
